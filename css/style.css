@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    height:100px;
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color: silver;
+    
+}
+.navbar ul{
+    list-style: none;
+    padding:0;
+    margin: 0 0 0 150px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+
+.logo img{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 63px;
+    height: 68px;
+    display:flex;
+
+}
+
+
+
+.navbar ul li:hover a{
+    color: goldenrod;
+    
+}
+@media screen and (max-width: 992px){
+    
+    header{
+        height: auto;
+        position: absolute;
+        background-color:silver;
+    
+    }
+    
+    .navbar ul li{
+        display:block;
+        background-color: silver;
+    }
+   
+}
+
+.size {
+    height:130px;
+    width:130px;
+    /*display:absolute;*/
+    align-items: center;
+    margin-left: 74px;
+    margin-bottom: 46px;
+    margin-top: 38px;
+}
+
+
+.opo{
+    float:left;
+    margin-top: 50px;
+}
+
+
+footer{
+    
+    height: 25%;
+    width:100%;
+    position:absolute;
+    background-color: silver;
+    display:flex;
+}
+
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background:silver;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.products{
+    height:80px;
+    margin-top: 180px;
+}
+.lop{
+    margin-top: 200px;
+}
+body{
+    margin: 0;
+}
+.page-wrapper {
+    max-width: 1024px;
+    margin: 0px auto 30px auto;
+    padding: 0px 10px 10px 20px;
+}
+.text-center{
+    padding-bottom:30px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    line-height: 30px;
+    font-weight: 600;
+}

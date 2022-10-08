@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="js/bootstrap.min.js" type="javascript"></script>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>   
+    <script src="https://kit.fontawesome.com/e70a84f60b.js" crossorigin="anonymous"></script>
+    
+    <style>
+        form {
+    color: white;
+    display: flex;
+    padding: 2px;
+   
+    }
+    input[type="search"] {
+        border: none;
+    
+        margin: 0;
+        padding: 7px 8px;
+        font-size: 14px;
+        color: inherit;
+        border: 1px solid transparent;
+        border-radius: inherit;
+    }
+    button[type="submit"] {
+        text-indent: -999px;
+        overflow: hidden;
+        width: 40px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid transparent;
+        background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+        button[type="submit"]:focus,
+        input[type="search"]:focus {
+        box-shadow: 0 0 3px 0 #1183d6;
+        border-color: #1183d6;
+        outline: none;
+    }
+    #row{
+        background-color: silver;
+    }
+    body{
+        width:100%;
+    }
+    #lot{
+        margin-top:360px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #engine{
+        height:280px;
+        width:310px;
+        margin-top:180px;
+       
+    }
+    h2{
+        margin-top: 200px;
+    }
+
+    /*.container{
+        display:flex;
+        
+    }*/
+
+    .card-footer{
+        background-color: silver;
+        display:flex;
+    }
+    .loko{
+        float:left;
+        margin: top 100px;
+        display:flex;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    @media (min-width: 992px){
+        .col-lg-6 {
+            flex: 0 0 auto;
+            width: 102%;
+     }
+    }
+
+    #www{
+        display:flex;
+        height:88%;
+        align-items:center;
+        margin-top:100px;
+    }    
+    
+    .row-footer{
+        background-color: silver;
+    }
+    .row {
+        --bs-gutter-x: 12.5rem;
+    }
+    button a{
+        text-decoration: none;
+    }
+    #icons{
+        margin-left: 120px;
+        list-style:none;
+        
+    }
+    #h5{
+        margin-left:80px;
+        padding-top: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #shopnow a{
+        text-decoration: none;
+        color:white;
+    }
+    #qlinks{
+        font-family: 'Times New Roman', Times, serif;
+        margin-left:80px;
+        padding-top: 20px;
+        list-style: none;
+    }
+    #qlinks a{
+        text-decoration: none;
+        color:black;
+    }
+    </style>
+
+</head>    
+    
+<body> 
+<div class="page-wrapper">
+    <header>
+        <label class="logo h2"><img src="../mini_project_1/images/LOGO.jpg" class="rounded-circle justify-content-center"></img></label>
+            <nav class="navbar navbar-expand-sm justify-content-end pb-5 mx-5 " >    
+            <ul>
+                <li class="nav-item"><a href="../mini_project_1/index.html" aria-current="true">HOME</a></li>
+                <li class="nav-item"><a href="../mini_project_1/products.html">PRODUCTS</a></li>
+                <li class="nav-item"><a href="/mini_project_1/Contact Us.html">CONTACT US</a></li>
+                <li class="nav-item"><a href="../mini_project_1/loginform.html">LOGIN/SIGN-UP</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="row" id="www">
+        <div class="col">
+            <div class="col-6 col-md-6 px-0 d-flex flex-column justify-content-center"> 
+            <image src="../mini_project_1/images/xenon-hid-60d2ca5007b84.jpg" class="rounded-circle" id="engine"></image> 
+            </div>
+        </div> 
+        <div class="col">
+            <div class="col-6 col-lg-6 px-0 d-flex flex-column justify-content-center"><h1 class="loko">"AUTO" Upgrade Shop</h1></div>       
+            <p class="loko">Where you can find the true One Piece of your Car!</p>
+            
+            <button class="btn btn-success" type="button" id="shopnow"><a href="/mini_project_1/products.html">Shop Now</a></button>
+        </div>        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="d-flex">
+        <div class="row">
+            <div class="col-6 col-lg-6 px-0 flex-column">
+                <div class="d-inline-flex justify-content-evenly" id="size2">
+                    <div class="p-3"><image class="size" id="size" src="/mini_project_1/images/honda.png"></image></div>
+                    <div class="p-3"><image class="size" id="size" src="/mini_project_1/images/hyundai-logo.jpg"></image></div>
+                    <div class="p-3"><image class="size" id="size" src="/mini_project_1/images/toyota-logo.jpg"></image></div>
+                    <div class="p-3"><image class="size" id="size" src="/mini_project_1/images/Lexus-cars-logo.jpg"></image></div>
+                    <div class="p-2"><image class="size" id="size" src="/mini_project_1/images/nissan.jpg"></image></div>
+                </div>
+            </div>    
+        </div>
+    </div>    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row-footer justify-content-center">
+        <div class="row align-items-start">
+            <div class="col">
+                <p class="h5" id="h5">Quick Links</p>
+                <ul class="p-3 flex-fill" id="qlinks">
+                    <li><a href="/mini_project_1/index.html">Home</a></li>
+                    <li><a href="/mini_project_1/products.html">Products</a></li>
+                    <li><a href="/mini_project_1/Contact Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <p class="h5" id="h5">Address</p>
+            </div>
+            <div class="col">
+                <p class="h5" id="h5">Follow Us</p>
+            <ul class="p-3 flex-fill" id="icons">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-google"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</section>      
+</div>  
+
+
+
+</body> 
+
+
+
+
+
+
+</html>
+           
+  
+        
+        
+        
+</body> 
+
+    
+
+
+
+
+</html>
